@@ -43,5 +43,8 @@ body {
 
 .header__menu > span {
   display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #2d314d;
 }
 /*# sourceMappingURL=style.css.map */
