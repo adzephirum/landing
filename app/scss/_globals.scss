@@ -43,3 +43,15 @@ a:hover {
     align-items: center;
   }
 }
+
+// Buttons
+button,
+.button {
+  padding: 1rem 1.875rem;
+  background: linear-gradient(to right, $limeGreen, $brightCyan);
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  color: $white;
+  font-weight: 700;
+}

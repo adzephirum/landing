@@ -50,6 +50,18 @@ a:hover {
           align-items: center;
 }
 
+button,
+.button {
+  padding: 1rem 1.875rem;
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+}
+
 .header nav {
   padding: 24px;
 }
