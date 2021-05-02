@@ -58,8 +58,14 @@ button,
 // Visibility
 .hide-for-mobile {
   // Elements hidden on tablet and mobile
+  @include breakpoint-down(medium) {
+    display: none;
+  }
 }
 
 .hide-for-desktop {
   // Elements hidden on desktop viewport widths
+  @include breakpoint-up(large) {
+    display: none;
+  }
 }
