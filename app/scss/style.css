@@ -23,7 +23,6 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
-  color: #9698a6;
 }
 
 .flex {
@@ -79,5 +78,11 @@ button,
 
 .header__links a {
   font-size: 0.875rem;
+  color: #9698a6;
+}
+
+.header__cta {
+  font-size: 0.875rem;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
