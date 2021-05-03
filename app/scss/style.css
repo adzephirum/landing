@@ -131,5 +131,11 @@ button,
 .header__cta {
   font-size: 0.875rem;
   color: white;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.header__cta:hover {
+  opacity: 0.75;
 }
 /*# sourceMappingURL=style.css.map */
