@@ -89,6 +89,7 @@ button,
 
 .header .overlay {
   position: fixed;
+  display: none;
   top: 3.75rem;
   right: 0px;
   bottom: 0px;
