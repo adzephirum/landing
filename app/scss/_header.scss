@@ -61,6 +61,11 @@
 
   &__menu {
     background: $white;
+    padding: 1.625rem;
+    a {
+      color: $darkBlue;
+      padding: 0.625rem;
+    }
   }
 
   &__links {
