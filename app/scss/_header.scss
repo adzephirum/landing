@@ -63,8 +63,10 @@
     background: $white;
     padding: 1.625rem;
     a {
+      display: block;
       color: $darkBlue;
       padding: 0.625rem;
+      text-align: center;
     }
   }
 
