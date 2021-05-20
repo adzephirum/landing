@@ -32,6 +32,11 @@
     background-image: linear-gradient($darkBlue, transparent);
   }
 
+  nav {
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
+  }
+
   &__logo {
     img {
       width: 8.8125rem;
