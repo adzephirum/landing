@@ -196,6 +196,8 @@ button,
 
 .header__menu {
   background: white;
+  margin: 0px 1.5rem;
+  border-radius: 3px;
   padding: 1.625rem;
 }
 
