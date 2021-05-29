@@ -64,11 +64,11 @@
     position: absolute;
     width: calc(100% - 3rem);
     left: 50%;
-    transform: translateX(-50);
+    transform: translateX(-50%);
     background: $white;
-    margin: 0px 1.5rem;
     border-radius: 3px;
     padding: 1.625rem;
+
     a {
       display: block;
       color: $darkBlue;
