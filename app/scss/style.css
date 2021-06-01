@@ -207,7 +207,7 @@ button,
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   background: white;
-  margin-top: 1.5rem;
+  margin: 1.5rem 1.5rem;
   border-radius: 5px;
   padding: 1.625rem;
 }
