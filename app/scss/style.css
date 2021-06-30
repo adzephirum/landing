@@ -95,6 +95,12 @@ body.noscroll {
   overflow: hidden;
 }
 
+h1,
+h2,
+h3 {
+  margin-top: 0px;
+}
+
 a,
 a:visited,
 a:hover {
@@ -102,8 +108,10 @@ a:hover {
 }
 
 .container {
-  padding-left: 1.5rem;
+  padding-top: 2.25rem;
   padding-right: 1.5rem;
+  padding-bottom: 2.25rem;
+  padding-left: 1.5rem;
 }
 
 .flex {
@@ -291,10 +299,20 @@ button,
   background-position: center bottom;
 }
 
+.hero__text {
+  text-align: center;
+}
+
 .hero__text h1 {
-  font-size: 2.31rem;
   font-weight: 300;
+  font-size: 2.31rem;
   line-height: 1.15;
   color: #2d314d;
+  margin-bottom: 1.5rem;
+}
+
+.hero__text p {
+  line-height: 1.5;
+  margin-bottom: 2.25rem;
 }
 /*# sourceMappingURL=style.css.map */
