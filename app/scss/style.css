@@ -149,6 +149,7 @@ button,
   cursor: pointer;
   color: white;
   font-weight: 700;
+  font-size: 0.875rem;
 }
 
 @media (max-width: 63.9375em) {
@@ -270,7 +271,6 @@ button,
 }
 
 .header__cta {
-  font-size: 0.875rem;
   color: white;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
