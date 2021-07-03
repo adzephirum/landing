@@ -73,6 +73,12 @@ button,
   color: $white;
   font-weight: 700;
   font-size: $font-sm;
+  color: $white;
+  transition: opacity 300ms ease-in-out;
+
+  &:hover {
+    opacity: 0.75;
+  }
 }
 
 // Visibility
