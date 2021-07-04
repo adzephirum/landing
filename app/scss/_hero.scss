@@ -1,4 +1,8 @@
 .hero {
+  @include breakpoint-up(large) {
+    display: flex;
+  }
+
   &__image {
     position: relative;
     background-image: url("/images/bg-intro-mobile.svg");
