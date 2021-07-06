@@ -1,6 +1,7 @@
 .hero {
   @include breakpoint-up(large) {
     display: flex;
+    min-height: 41rem;
   }
 
   &__image {
