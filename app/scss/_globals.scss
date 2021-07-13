@@ -38,6 +38,14 @@ a:hover {
   max-width: 69.375rem;
   margin: 0 auto;
 
+  &--py {
+    padding-top: 2.25rem;
+    padding-right: 1.5rem;
+  }
+  &--px {
+    padding-top: 2.25rem;
+    padding-right: 1.5rem;
+  }
   &--pt {
     padding-top: 2.25rem;
   }
