@@ -36,8 +36,8 @@
 
       @include breakpoint-up(large) {
         width: 150%;
-        // background-size: 122%;
-        background-repeat: no-repeat;
+        background-size: 122%;
+        // background-repeat: no-repeat;
         background-position: 0% 83%;
       }
     }
