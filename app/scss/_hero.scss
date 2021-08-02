@@ -31,6 +31,10 @@
     &::before {
 
       @include breakpoint-up(large) {
+        background-size: 52%;
+      }
+
+      @include breakpoint-up(large) {
         width: 150%;
         background-size: 122%;
         background-position: 0% 83%;
