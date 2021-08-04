@@ -29,7 +29,7 @@
       // background-position: left center;
     }
     &::before {
-      @include breakpoint-up(large) {
+      @include breakpoint-up(medium) {
         background-size: 52%;
       }
 
