@@ -29,10 +29,6 @@
       // background-position: left center;
     }
     &::before {
-      @include breakpoint-up(medium) {
-        background-size: 52%;
-      }
-
       @include breakpoint-up(large) {
         width: 150%;
         background-size: 122%;
@@ -41,7 +37,6 @@
         position: absolute;
         height: 100%;
         background-image: url("/images/bg-intro-desktop.svg");
-        // background-size: 93%;
         background-repeat: no-repeat;
         background-position: center bottom;
       }
@@ -56,6 +51,10 @@
       background-size: 93%;
       background-repeat: no-repeat;
       background-position: center bottom;
+
+      @include breakpoint-up(medium) {
+        background-size: 52%;
+      }
 
       @include breakpoint-up(large) {
         width: 120%;
