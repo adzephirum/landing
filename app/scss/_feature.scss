@@ -5,6 +5,9 @@
     }
   }
   &__item {
+    @include breakpoint-up(large) {
+      flex: 1;
+    }
   }
   &__icon {
   }
