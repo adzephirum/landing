@@ -30,6 +30,10 @@
     }
   }
   &__title {
+    font-size: 1.25rem;
+    @include breakpoint-up(large) {
+      margin-bottom: 1.5rem;
+    }
   }
   &__description {
   }
