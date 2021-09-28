@@ -79,6 +79,10 @@ a:hover {
   &--py {
     padding-top: 4.375rem;
     padding-bottom: 4.375rem;
+    @include breakpoint-up(large) {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
   }
   &--px {
     padding-right: 1.5rem;
