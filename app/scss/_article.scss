@@ -8,6 +8,7 @@
 
   &__grid {
     display: grid;
+    grid-template-columns: 1fr;
   }
 
   &__item {
