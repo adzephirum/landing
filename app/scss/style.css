@@ -562,7 +562,7 @@ button:hover,
 .article__grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: repeat auto-fit, minmax(14.375rem, 1fr);
-      grid-template-columns: repeat auto-fit, minmax(14.375rem, 1fr);
+  -ms-grid-columns: (minmax(14.375rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(14.375rem, 1fr));
 }
 /*# sourceMappingURL=style.css.map */
