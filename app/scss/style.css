@@ -564,6 +564,7 @@ button:hover,
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
+  gap: 1.25rem;
 }
 
 @media (min-width: 40em) {
