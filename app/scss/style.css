@@ -564,7 +564,7 @@ button:hover,
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  gap: 1.25rem;
+  gap: 1.875rem;
 }
 
 @media (min-width: 40em) {
@@ -581,10 +581,38 @@ button:hover,
   }
 }
 
+.article__item {
+  border-radius: 0.3125rem;
+  overflow: hidden;
+}
+
 .article__image {
   height: 12.5rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.article__text {
+  background-color: white;
+  padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+}
+
+@media (min-width: 40em) {
+  .article__text {
+    padding: 1.875rem 1.5625;
+  }
+}
+
+.article__author {
+  font-size: 0.625rem;
+}
+
+.article__title {
+  font-size: 1.0625rem;
+}
+
+.article__decription {
+  font-size: 0.8125rem;
 }
 /*# sourceMappingURL=style.css.map */
