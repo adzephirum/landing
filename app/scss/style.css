@@ -594,13 +594,13 @@ button:hover,
 }
 
 .article__text {
-  background-color: white;
   padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+  color: #9698a6;
 }
 
 @media (min-width: 40em) {
   .article__text {
-    padding: 1.875rem 1.5625;
+    padding: 1.875rem 1.5625rem;
   }
 }
 
@@ -610,9 +610,10 @@ button:hover,
 
 .article__title {
   font-size: 1.0625rem;
+  color: #2d314d;
 }
 
-.article__decription {
+.article__description {
   font-size: 0.8125rem;
 }
 /*# sourceMappingURL=style.css.map */
