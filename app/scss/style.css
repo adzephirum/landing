@@ -633,6 +633,8 @@ button:hover,
 .footer {
   background-color: #2d314d;
   color: white;
+  padding: 2.5rem;
+  text-align: center;
 }
 
 .footer a {
