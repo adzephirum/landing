@@ -14,7 +14,7 @@
   }
   &__social {
     margin-bottom: 1.875rem;
-    a {
+    a:not(:last-child) {
       display: inline-block;
       margin-right: 1rem;
     }
