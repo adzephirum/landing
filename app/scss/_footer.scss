@@ -14,8 +14,12 @@
   }
   &__social {
     margin-bottom: 1.875rem;
-    a:not(:last-child) {
+
+    a {
       display: inline-block;
+    }
+
+    a:not(:last-child) {
       margin-right: 1rem;
     }
   }
