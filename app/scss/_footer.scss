@@ -6,6 +6,7 @@
 
   @include breakpoint-up(large) {
     display: grid;
+    grid-template-columns: repeat(3, 1fr) 2fr;
   }
 
   a {
