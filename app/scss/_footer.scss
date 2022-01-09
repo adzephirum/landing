@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr) 2fr;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "";
+    grid-template-areas: "logo limks1 links2 cta";
   }
 
   a {
