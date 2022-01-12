@@ -267,6 +267,11 @@ button:hover,
   }
 }
 
+.header {
+  position: relative;
+  z-index: 1;
+}
+
 .header.open .header__toggle > span:first-child {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -321,7 +326,7 @@ button:hover,
 
 .header__menu {
   position: absolute;
-  width: calc(100% - 6rem);
+  width: calc(100% - 3rem);
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -333,8 +338,8 @@ button:hover,
 
 .header__menu a {
   display: block;
-  color: #2d314d;
   padding: 0.625rem;
+  color: #2d314d;
   text-align: center;
 }
 
