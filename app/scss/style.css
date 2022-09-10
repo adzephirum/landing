@@ -380,6 +380,7 @@ button:hover,
 
 .hero {
   background-color: #fafafa;
+  overflow: hidden;
 }
 
 @media (min-width: 64em) {
